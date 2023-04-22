@@ -8,6 +8,9 @@
 .logo img{
     max-width: 100%;
 }
+.meun-icon i.fa-align-right{
+    display: none;
+}
 .meun ul{
     display: flex;
     justify-content: end;
