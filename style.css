@@ -1,0 +1,173 @@
+
+
+/* header */
+.header-section{
+    padding-top: 20px;
+    background-color: #F0FFF0;
+    padding: 100px;
+}
+.logo img{
+    max-width: 100%;
+}
+.meun ul{
+    display: flex;
+    justify-content: end;
+
+}
+.meun ul li{
+    list-style: none;
+}
+.meun ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+}
+.meun ul li:nth-child(5) a {
+    background-color: #21B573;
+    color: white;
+    border-radius: 30px;
+    text-transform: capitalize;
+    padding: 8px 25px;
+    font-size: 18px;
+    
+}
+.header-text>span{
+    margin-bottom: 20px;
+    color: red;
+    display: inline-block;
+    font-size: 18px;
+}
+.header-text h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.header-text h2 span{
+    color: #21B573;
+}
+.header-text p{
+    color: gray;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+.header-text button{
+    background-color: #21B573;
+    color: white;
+    border-radius: 30px;
+    text-transform: capitalize;
+    border: none;
+    padding: 8px 30px;
+}
+.banner img{
+    padding-top: 50px;   
+}
+/* service */
+.service{
+    padding: 50px 0;
+}
+.sv-items{
+    padding: 30px 50px;
+    background-color: #F0FFF0;
+    text-align: center; 
+    border-radius: 15px;
+    transition: .3s;   
+}
+.sv-items:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0 0 25px gray;
+}
+.sv-items img{
+    max-width: 40%;
+    margin-top: 80px;
+}
+/* work */
+.online-courses{
+    padding: 60px 0;
+}
+.text-center{
+    margin-bottom: 50px;
+}
+.work-item{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 30px gainsboro;
+    border-radius: 15px;
+}
+.work-item img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.work-item h5{
+    margin-bottom: 20px;   
+}
+.work-item button{
+    background-color: #21B573;
+    color: white;
+    border-radius: 30px;
+    text-transform: capitalize;
+    border: none;
+    padding: 8px 30px;  
+    margin-bottom: 15px;  
+}
+.icon-2{
+    margin-left: 50px;
+}
+.icon-text{
+    margin-left: 10px;    
+}
+
+/* Testimonial */
+.Testimonial{
+    padding: 100px 0;
+}
+.men img{
+    max-width: 50%;
+    margin-right: 30px;
+}
+.Testimonial h1{
+    margin-top: -80px;
+    margin-bottom: 70px;
+    margin-left: 30px;
+}
+
+.Testimonial p{
+    line-height: 2em;
+    font-size: 20px;
+    margin-right: 50px;
+}
+/* footer */
+.footer-text{
+    background-color: #282531;
+    color: white;
+    padding: 50px 0;
+}
+
+.ft-02 b,
+.ft-03 b,
+.ft-04 b{
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.ft-02 p,
+.ft-03 p,
+.ft-04 p{
+    line-height: 10px;
+}
+.ft-02 b,
+.ft-02 p{
+    margin-left: 30px;
+}
+.ft-02 i{
+    margin-top: 50px;
+    display: inline-block;
+    color: rgb(175, 172, 172);
+}
+.ft-03{
+    display: flex;
+    justify-content: center;
+}
+.ft-04{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,45 @@
+@media (max-width: 1200px) {
+    .sv-items{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 991px) {
+    .work-item{
+        margin-bottom: 20px;
+    }
+    .ft-02,
+    .ft-03,
+    .ft-04{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 775px) {
+    .footer-text{
+        position: relative;
+    }
+    .ft-01{
+        text-align: center;
+    }
+    .ft-02 p,
+    .ft-03 p,
+    .ft-04 p{
+        display: none;
+    }
+    .ft-02 b,
+    .ft-03 b,
+    .ft-04 b{
+        cursor: pointer;
+    }
+    .ft-02 i{
+        position: absolute;
+        bottom: 10%;
+        left: 30%;
+    }
+}
+
+@media (max-width: 575px) {
+    .sv-items{
+        width: 100%;
+    }
+}
